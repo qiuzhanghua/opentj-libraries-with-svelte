@@ -7,7 +7,7 @@ This is an opentj svelte starter.
 Run the following command:
 
 ```sh
-npx create-turbo@latest -e qiuzhanghua/opentj-libraries-with-svelte
+pnpx create-turbo@latest -e https://github.com/qiuzhanghua/opentj-libraries-with-svelte
 ```
 
 ## How to architecture it
@@ -46,4 +46,6 @@ pnpm up -Lri
 pnpm add -D -w rimraf
 ```
 
-4. todo
+4. Modify some files
+
+...
