@@ -1,7 +1,7 @@
 {
   "name": "@opentj/core",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.3",
   "scripts": {
     "clean": "turbo run clean",
     "build": "turbo run build",
@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "eslint": "^8.41.0",
-    "eslint-config-opentj": "workspace:*",
+    "@opentj/eslint-config": "workspace:*",
     "prettier": "^2.8.8",
     "prettier-plugin-svelte": "^2.10.0",
     "rimraf": "^5.0.1",

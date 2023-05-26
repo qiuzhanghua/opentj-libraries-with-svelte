@@ -1,6 +1,6 @@
 {
   "name": "@opentj/core",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "Styles and components for use in svelte websites",
   "type": "module",
   "module": "src/index.ts",
@@ -12,7 +12,7 @@
     "format": "prettier --write --ignore-path=../../.prettierignore ."
   },
   "devDependencies": {
-    "eslint-config-opentj": "workspace:*",
+    "@opentj/eslint-config": "workspace:*",
     "svelte": "^3.59.1",
     "tsup": "^6.7.0"
   }
