@@ -6,8 +6,19 @@ This is an opentj svelte starter.
 
 Run the following command:
 
-```sh
-pnpx create-turbo@latest -e https://github.com/qiuzhanghua/opentj-libraries-with-svelte
+```bash
+pnpx create-turbo@latest -e https://github.com/qiuzhanghua/opentj-libraries-with-svelte my_repo
+```
+
+And then
+```bash
+cd my_reop
+pnpm install
+#...
+pnpm storybook
+# ...
+```
+
 ```
 
 ## How to architecture it
