@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "description": "Styles and components for use in svelte websites",
   "type": "module",
-  "module": "index.ts",
-  "svelte": "index.ts",
+  "module": "src/index.ts",
+  "svelte": "src/index.ts",
   "license": "MIT",
   "scripts": {
     "clean": "rimraf dist node_modules",
@@ -12,7 +12,8 @@
     "format": "prettier --write --ignore-path=../../.prettierignore ."
   },
   "devDependencies": {
-    "eslint-config-custom": "workspace:*",
-    "svelte": "^3.59.1"
+    "eslint-config-opentj": "workspace:*",
+    "svelte": "^3.59.1",
+    "tsup": "^6.7.0"
   }
 }

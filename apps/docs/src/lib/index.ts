@@ -1,1 +1,1 @@
-export { MyCounter } from '@opentj/core';
+export { MyCounter } from '../../../../packages/core/src/index.js';

@@ -28,27 +28,25 @@
 	"peerDependencies": {
 		"svelte": "^3.54.0"
 	},
-	"dependencies": {
-		"@opentj/core": "workspace:*"
-	},
 	"devDependencies": {
+		"@opentj/core": "workspace:*",
 		"@opentj/tsconfig": "workspace:*",
-		"eslint-config-custom": "workspace:*",
 		"@storybook/addon-essentials": "^7.0.17",
 		"@storybook/addon-interactions": "^7.0.17",
 		"@storybook/addon-links": "^7.0.17",
 		"@storybook/blocks": "^7.0.17",
+		"@storybook/builder-vite": "^7.0.17",
 		"@storybook/global": "^5.0.0",
 		"@storybook/svelte": "^7.0.17",
 		"@storybook/sveltekit": "^7.0.17",
 		"@storybook/testing-library": "^0.1.0",
-		"@storybook/builder-vite": "^7.0.17",
 		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/kit": "^1.5.0",
+		"@sveltejs/kit": "^1.19.0",
 		"@sveltejs/package": "^2.0.0",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
 		"eslint": "^8.28.0",
+		"eslint-config-opentj": "workspace:*",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-storybook": "^0.6.12",
 		"eslint-plugin-svelte": "^2.26.0",
@@ -59,7 +57,7 @@
 		"react-dom": "^18.2.0",
 		"storybook": "^7.0.17",
 		"svelte": "^3.54.0",
-		"svelte-check": "^3.0.1",
+		"svelte-check": "^3.3.2",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
 		"vite": "^4.3.0"
